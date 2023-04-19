@@ -1,0 +1,157 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <div class="questionnaire">
+ <h1 id="title">Learn to program</h1>
+ <link rel="stylesheet" href="styles.css" />
+ <p id="description">Fill in so we can contact you</p>
+ <form id="survey-form">
+  <label for="name" id="name-label">Enter your name <br><input id="name" type="text" required placeholder="Enter your name"></label>
+  <br>
+  <label for="email" id="email-label">Enter your email 
+    <br><input id="email" type="email" required placeholder="Enter your email "></label>
+  <br>
+  <label for="number" id="number-label">Enter your number <br><input id="number" type="number" min="0" max="9" placeholder="Enter your number"></label>
+  <br>
+  <h2>Wich option do you prefer to learn</h2> 
+   <select name="dropdown" id="dropdown">
+    <option value="">Select an option</option>
+    <option value="2">Html</option>
+    <option value="3">CSS</option> 
+    <option value="4">JS</option>
+    <option value="5">Java</option>    
+   </select>
+   <br><br><br><br><br><br>
+   <h2>What kind of class do you prefer?</h2>
+   <fieldset>
+     <label for="opcion1"><input name="option1" id="opcion1" type="radio" class="inline" value="option1">In-person morning shift</label>
+     <label for="option2"><input name="option1" id="only-html" type="radio" class="inline" value="option2">In-person afternoon shift</label>
+     <label for="option3"><input name="option1" id="only-html" type="radio" class="inline" value="option3">In-person night shift</label>
+     <label for="option4"><input name="option1" id="only-html" type="radio" class="inline" value="option4">Online morning shift</label>
+     <label for="option5"><input name="option1" id="only-html" type="radio" class="inline" value="option5">Online night shift</label>
+   </fieldset>
+   <br>
+   <h2>Do you have any knowledge?</h2>
+   <fieldset>
+     <label for="html"><input name="html" id="html" type="checkbox" class="inline" value="html">HTML</label>
+
+     <label for="css"><input name="css" id="css" type="checkbox" class="inline" value="css">CSS</label>
+
+     <label for="js"><input name="js" id="js" type="checkbox" class="inline" value="js">JS</label>
+
+     <label for="java"><input name="java" id="java" type="checkbox" class="inline" value="java">JAVA</label>
+
+     <label for="none-one"><input name="none-one" id="none-one" type="checkbox" class="inline" value="none-one">None one</label>
+   </fieldset>
+   <h4>Any comments or suggestions?</h4>
+   <textarea name="" id="" cols="30" rows="10"></textarea>
+   <br>
+   <input id="submit" type="submit" value="Submit" />
+ </form>
+</div>
+</body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: #1b1b32;
+    color: #f5f6f7;
+    font-family: Tahoma;
+    font-size: 16px;
+    background-image: url(https://images.unsplash.com/photo-1609602644879-dd158c2b56b4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+    background-size: cover;
+
+    background-size: 100% 100%;
+    margin-top: 8%;
+  }
+  
+  h1, p {
+    margin: 1em auto;
+    text-align: center;
+  }
+  
+  form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+  
+  fieldset {
+    border: none;
+    padding: 2rem 0;
+  }
+  
+  fieldset:last-of-type {
+    border-bottom: none;
+  }
+  
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  
+  input,
+  textarea,
+  select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+  }
+  
+  input, textarea {
+    background-color: #0a0a23;
+    border: 1px solid #0a0a23;
+    color: #ffffff;
+
+  }
+  
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #3b3b4f;
+    border-color: white;
+    min-width: 300px;
+  }
+  
+  input[type="file"] {
+    padding: 1px 2px;
+  }
+  select{
+    font-family:Georgia, 'Times New Roman', Times, serif
+  }
+  .questionnaire{
+width: 80%;
+  background-color: rgb(162, 138, 235);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 80px;
+  max-width: 500px;
+  }
+
+** end of undefined **
+
